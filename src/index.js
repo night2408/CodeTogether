@@ -11,7 +11,7 @@ if(!roomId){
 
 const textArea = document.querySelector("textarea");
 
-const wsurl = `wss://s14842.blr1.piesocket.com/v3/${roomId}?api_key=6uOwcOJZ3ZMuoixiljKa01NXOhrSoT5QqWnwW8PB&notify_self=1`;
+const wsurl = ` `;
 
 const socket= new WebSocket(wsurl);
 
