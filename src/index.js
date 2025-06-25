@@ -11,7 +11,7 @@ if(!roomId){
 
 const textArea = document.querySelector("textarea");
 
-const wsurl = ` `;
+const wsurl = `API_URL `;
 
 const socket= new WebSocket(wsurl);
 
